@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DBA1866D6C4348292518A27 /* TKModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1E5F1A4358233CD377A3 /* TKModelViewController.m */; };
+		2DBA1C2C5A5D4694056AC392 /* TKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA14E9304D56E7E07D6A31 /* TKTableViewController.m */; };
+		802C1AB917C3E5080022EC94 /* TKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C1AB817C3E5080022EC94 /* TKModel.m */; };
+		802C1AD417C3EB7B0022EC94 /* TKDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C1AD317C3EB7B0022EC94 /* TKDataSource.m */; };
+		802C1ADA17C3F5670022EC94 /* TKFilterable.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C1AD917C3F5670022EC94 /* TKFilterable.m */; };
+		802C1ADD17C3F57E0022EC94 /* TKFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 802C1ADC17C3F57D0022EC94 /* TKFilter.m */; };
+		DE877D8A17E29C6400CBC541 /* NSArray+TableKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DE877D8917E29C6400CBC541 /* NSArray+TableKit.m */; };
+		DE877D8D17E29CC100CBC541 /* NSObject+TableKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DE877D8C17E29CC100CBC541 /* NSObject+TableKit.m */; };
+		DE877D9117E2A37400CBC541 /* TKTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DE877D9017E2A37400CBC541 /* TKTableDataSource.m */; };
+		DE877D9417E2A38100CBC541 /* TKListTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DE877D9317E2A38100CBC541 /* TKListTableDataSource.m */; };
+		DE877D9717E2A38E00CBC541 /* TKSectionedTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DE877D9617E2A38E00CBC541 /* TKSectionedTableDataSource.m */; };
+		DE877D9A17E2A62100CBC541 /* TKSimpleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE877D9917E2A62100CBC541 /* TKSimpleModel.m */; };
+		DE877D9D17E2A83800CBC541 /* TKPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE877D9C17E2A83800CBC541 /* TKPlaceholderView.m */; };
 		E701694E15C6B13E002CB278 /* SectionedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E701694D15C6B13E002CB278 /* SectionedTableViewController.m */; };
 		E701695215C6B19B002CB278 /* TKSectionedTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E701695115C6B19B002CB278 /* TKSectionedTableModel.m */; };
 		E70BD2CE15AC99DD0064C166 /* UITableViewCell+TableKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E70BD2CC15AC99DD0064C166 /* UITableViewCell+TableKit.m */; };
@@ -89,6 +102,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DBA11B2A357892A0A366FE8 /* TKModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKModelViewController.h; sourceTree = "<group>"; };
+		2DBA14E9304D56E7E07D6A31 /* TKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTableViewController.m; sourceTree = "<group>"; };
+		2DBA190F62FB966CFF862E4D /* TKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTableViewController.h; sourceTree = "<group>"; };
+		2DBA1E5F1A4358233CD377A3 /* TKModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKModelViewController.m; sourceTree = "<group>"; };
+		802C1AB717C3E5080022EC94 /* TKModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKModel.h; sourceTree = "<group>"; };
+		802C1AB817C3E5080022EC94 /* TKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKModel.m; sourceTree = "<group>"; };
+		802C1AD217C3EB7B0022EC94 /* TKDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKDataSource.h; sourceTree = "<group>"; };
+		802C1AD317C3EB7B0022EC94 /* TKDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKDataSource.m; sourceTree = "<group>"; };
+		802C1AD817C3F5670022EC94 /* TKFilterable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFilterable.h; sourceTree = "<group>"; };
+		802C1AD917C3F5670022EC94 /* TKFilterable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFilterable.m; sourceTree = "<group>"; };
+		802C1ADB17C3F57D0022EC94 /* TKFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFilter.h; sourceTree = "<group>"; };
+		802C1ADC17C3F57D0022EC94 /* TKFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFilter.m; sourceTree = "<group>"; };
+		DE877D8817E29C6400CBC541 /* NSArray+TableKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TableKit.h"; sourceTree = "<group>"; };
+		DE877D8917E29C6400CBC541 /* NSArray+TableKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TableKit.m"; sourceTree = "<group>"; };
+		DE877D8B17E29CC100CBC541 /* NSObject+TableKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TableKit.h"; sourceTree = "<group>"; };
+		DE877D8C17E29CC100CBC541 /* NSObject+TableKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TableKit.m"; sourceTree = "<group>"; };
+		DE877D8E17E29E2800CBC541 /* TKMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKMacros.h; sourceTree = "<group>"; };
+		DE877D8F17E2A37400CBC541 /* TKTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTableDataSource.h; sourceTree = "<group>"; };
+		DE877D9017E2A37400CBC541 /* TKTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTableDataSource.m; sourceTree = "<group>"; };
+		DE877D9217E2A38100CBC541 /* TKListTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKListTableDataSource.h; sourceTree = "<group>"; };
+		DE877D9317E2A38100CBC541 /* TKListTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKListTableDataSource.m; sourceTree = "<group>"; };
+		DE877D9517E2A38E00CBC541 /* TKSectionedTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSectionedTableDataSource.h; sourceTree = "<group>"; };
+		DE877D9617E2A38E00CBC541 /* TKSectionedTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSectionedTableDataSource.m; sourceTree = "<group>"; };
+		DE877D9817E2A62100CBC541 /* TKSimpleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSimpleModel.h; sourceTree = "<group>"; };
+		DE877D9917E2A62100CBC541 /* TKSimpleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSimpleModel.m; sourceTree = "<group>"; };
+		DE877D9B17E2A83800CBC541 /* TKPlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKPlaceholderView.h; sourceTree = "<group>"; };
+		DE877D9C17E2A83800CBC541 /* TKPlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKPlaceholderView.m; sourceTree = "<group>"; };
 		E701694C15C6B13E002CB278 /* SectionedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionedTableViewController.h; sourceTree = "<group>"; };
 		E701694D15C6B13E002CB278 /* SectionedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionedTableViewController.m; sourceTree = "<group>"; };
 		E701695015C6B19B002CB278 /* TKSectionedTableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSectionedTableModel.h; sourceTree = "<group>"; };
@@ -265,6 +305,11 @@
 				E722A02915ABEE0F003573C9 /* TKCellMapper.h */,
 				E722A02A15ABEE0F003573C9 /* TKCellMapper.m */,
 				E722A02B15ABEE0F003573C9 /* TKTableModel+Private.h */,
+				DE877D8817E29C6400CBC541 /* NSArray+TableKit.h */,
+				DE877D8917E29C6400CBC541 /* NSArray+TableKit.m */,
+				DE877D8B17E29CC100CBC541 /* NSObject+TableKit.h */,
+				DE877D8C17E29CC100CBC541 /* NSObject+TableKit.m */,
+				DE877D8E17E29E2800CBC541 /* TKMacros.h */,
 			);
 			path = Private;
 			sourceTree = "<group>";
@@ -397,6 +442,28 @@
 				E725E8BA15AB543100407719 /* TKTableModel.m */,
 				E701695015C6B19B002CB278 /* TKSectionedTableModel.h */,
 				E701695115C6B19B002CB278 /* TKSectionedTableModel.m */,
+				802C1AB717C3E5080022EC94 /* TKModel.h */,
+				802C1AB817C3E5080022EC94 /* TKModel.m */,
+				DE877D9817E2A62100CBC541 /* TKSimpleModel.h */,
+				DE877D9917E2A62100CBC541 /* TKSimpleModel.m */,
+				802C1AD217C3EB7B0022EC94 /* TKDataSource.h */,
+				802C1AD317C3EB7B0022EC94 /* TKDataSource.m */,
+				DE877D8F17E2A37400CBC541 /* TKTableDataSource.h */,
+				DE877D9017E2A37400CBC541 /* TKTableDataSource.m */,
+				DE877D9217E2A38100CBC541 /* TKListTableDataSource.h */,
+				DE877D9317E2A38100CBC541 /* TKListTableDataSource.m */,
+				DE877D9517E2A38E00CBC541 /* TKSectionedTableDataSource.h */,
+				DE877D9617E2A38E00CBC541 /* TKSectionedTableDataSource.m */,
+				802C1AD817C3F5670022EC94 /* TKFilterable.h */,
+				802C1AD917C3F5670022EC94 /* TKFilterable.m */,
+				802C1ADB17C3F57D0022EC94 /* TKFilter.h */,
+				802C1ADC17C3F57D0022EC94 /* TKFilter.m */,
+				2DBA1E5F1A4358233CD377A3 /* TKModelViewController.m */,
+				2DBA11B2A357892A0A366FE8 /* TKModelViewController.h */,
+				2DBA14E9304D56E7E07D6A31 /* TKTableViewController.m */,
+				2DBA190F62FB966CFF862E4D /* TKTableViewController.h */,
+				DE877D9B17E2A83800CBC541 /* TKPlaceholderView.h */,
+				DE877D9C17E2A83800CBC541 /* TKPlaceholderView.m */,
 			);
 			path = TableKit;
 			sourceTree = "<group>";
@@ -610,6 +677,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E725E88415AB53F800407719 /* main.m in Sources */,
+				DE877D8D17E29CC100CBC541 /* NSObject+TableKit.m in Sources */,
 				E725E88815AB53F800407719 /* AppDelegate.m in Sources */,
 				E725E88B15AB53F800407719 /* TableKitDemo.xcdatamodeld in Sources */,
 				E725E8BC15AB543100407719 /* TKCellAttributeMapping.m in Sources */,
@@ -633,23 +701,27 @@
 				E737446D15AB57A2001CD3BF /* WillDisplayCellExampleViewController.m in Sources */,
 				E73744AA15AB583F001CD3BF /* MagicalImportFunctions.m in Sources */,
 				E73744AB15AB583F001CD3BF /* NSAttributeDescription+MagicalDataImport.m in Sources */,
+				DE877D8A17E29C6400CBC541 /* NSArray+TableKit.m in Sources */,
 				E73744AC15AB583F001CD3BF /* NSEntityDescription+MagicalDataImport.m in Sources */,
 				E73744AD15AB583F001CD3BF /* NSNumber+MagicalDataImport.m in Sources */,
 				E73744AE15AB583F001CD3BF /* NSObject+MagicalDataImport.m in Sources */,
 				E73744AF15AB583F001CD3BF /* NSRelationshipDescription+MagicalDataImport.m in Sources */,
 				E73744B015AB583F001CD3BF /* NSString+MagicalDataImport.m in Sources */,
 				E73744B115AB583F001CD3BF /* NSManagedObject+MagicalAggregation.m in Sources */,
+				DE877D9117E2A37400CBC541 /* TKTableDataSource.m in Sources */,
 				E73744B215AB583F001CD3BF /* NSManagedObject+MagicalDataImport.m in Sources */,
 				E73744B315AB583F001CD3BF /* NSManagedObject+MagicalFinders.m in Sources */,
 				E73744B415AB583F001CD3BF /* NSManagedObject+MagicalRecord.m in Sources */,
 				E73744B515AB583F001CD3BF /* NSManagedObject+MagicalRequests.m in Sources */,
 				E73744B615AB583F001CD3BF /* NSManagedObjectContext+MagicalObserving.m in Sources */,
+				DE877D9417E2A38100CBC541 /* TKListTableDataSource.m in Sources */,
 				E73744B715AB583F001CD3BF /* NSManagedObjectContext+MagicalRecord.m in Sources */,
 				E73744B815AB583F001CD3BF /* NSManagedObjectContext+MagicalSaves.m in Sources */,
 				E73744B915AB583F001CD3BF /* NSManagedObjectContext+MagicalThreading.m in Sources */,
 				E73744BA15AB583F001CD3BF /* NSManagedObjectModel+MagicalRecord.m in Sources */,
 				E73744BB15AB583F001CD3BF /* NSPersistentStore+MagicalRecord.m in Sources */,
 				E73744BC15AB583F001CD3BF /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */,
+				DE877D9717E2A38E00CBC541 /* TKSectionedTableDataSource.m in Sources */,
 				E73744BD15AB583F001CD3BF /* MagicalRecord+Actions.m in Sources */,
 				E73744BE15AB583F001CD3BF /* MagicalRecord+ErrorHandling.m in Sources */,
 				E73744BF15AB583F001CD3BF /* MagicalRecord+iCloud.m in Sources */,
@@ -659,10 +731,18 @@
 				E73744C315AB583F001CD3BF /* MagicalRecord.m in Sources */,
 				E721801D15AB74A900C61C03 /* NSStringMappingViewController.m in Sources */,
 				E722A02C15ABEE0F003573C9 /* TKCellMapper.m in Sources */,
+				DE877D9A17E2A62100CBC541 /* TKSimpleModel.m in Sources */,
 				E70BD2CE15AC99DD0064C166 /* UITableViewCell+TableKit.m in Sources */,
 				E701694E15C6B13E002CB278 /* SectionedTableViewController.m in Sources */,
 				E701695215C6B19B002CB278 /* TKSectionedTableModel.m in Sources */,
 				E7789F7615D2F878006B479A /* ReorderingTableViewController.m in Sources */,
+				802C1AB917C3E5080022EC94 /* TKModel.m in Sources */,
+				802C1AD417C3EB7B0022EC94 /* TKDataSource.m in Sources */,
+				DE877D9D17E2A83800CBC541 /* TKPlaceholderView.m in Sources */,
+				802C1ADA17C3F5670022EC94 /* TKFilterable.m in Sources */,
+				802C1ADD17C3F57E0022EC94 /* TKFilter.m in Sources */,
+				2DBA1866D6C4348292518A27 /* TKModelViewController.m in Sources */,
+				2DBA1C2C5A5D4694056AC392 /* TKTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

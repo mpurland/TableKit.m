@@ -18,11 +18,19 @@
 #import <Foundation/Foundation.h>
 
 #import "TKBlocks.h"
+
+#import "TKMacros.h"
+
+// Categories
+#import "UITableViewCell+TableKit.h"
+#import "NSArray+TableKit.h"
+#import "NSObject+TableKit.h"
+
 #import "TKCellAttributeMapping.h"
 #import "TKCellMapping.h"
+#import "TKModel.h"
 #import "TKTableModel.h"
 #import "TKDynamicCellMapping.h"
-#import "UITableViewCell+TableKit.h"
 #import "TKListTableModel.h"
 #import "TKManagedTableModel.h"
 #import "TKSectionedTableModel.h"

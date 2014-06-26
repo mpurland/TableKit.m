@@ -18,34 +18,15 @@
 #import <Foundation/Foundation.h>
 
 #import "TKBlocks.h"
+#import "TKModel.h"
 
 @class TKCellMapping;
 
-@interface TKTableModel : NSObject <UITableViewDataSource, UITableViewDelegate> {
-    NSMutableDictionary *_objectMappings;
-    dispatch_queue_t _concurrentQueue;
-}
-
-@property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, copy) TKObjectForRowAtIndexPathBlock objectForRowAtIndexPathBlock;
-@property (nonatomic, readonly) NSMutableDictionary *objectMappings;
-
 /**
- This is used to forward UITableViewDelegate, UITableViewDataSource and UIScrollViewDelegate unimplemend by TKTableModel.
+ Protocol for a table model.
  */
-@property (nonatomic, weak) id delegate;
-
-/**
- Short method to create a tableModel
- @param tableView The tableView that will be used to show cell
- */
-+ (id)tableModelForTableView:(UITableView *)tableView;
-
-/**
- Create a tableModel
- @param tableView The tableView that will be used to show cell
- */
-- (id)initWithTableView:(UITableView *)tableView;
+@protocol TKTableModel <TKModel>
+@required
 
 /**
  Add cell mapping to the model
@@ -98,9 +79,32 @@
  */
 - (UITableViewCell *)cellForRowAtIndexPath:(NSIndexPath *)indexPath;
 
+@end
+
+@interface TKTableModel : NSObject <TKTableModel, UITableViewDataSource, UITableViewDelegate> {
+    NSMutableDictionary *_objectMappings;
+    dispatch_queue_t _concurrentQueue;
+}
+
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, copy) TKObjectForRowAtIndexPathBlock objectForRowAtIndexPathBlock;
+@property (nonatomic, readonly) NSMutableDictionary *objectMappings;
+
 /**
- Reload items
+ This is used to forward UITableViewDelegate, UITableViewDataSource and UIScrollViewDelegate unimplemend by TKTableModel.
  */
-- (void)loadItems;
+@property (nonatomic, weak) id delegate;
+
+/**
+ Short method to create a tableModel
+ @param tableView The tableView that will be used to show cell
+ */
++ (id)tableModelForTableView:(UITableView *)tableView;
+
+/**
+ Create a tableModel
+ @param tableView The tableView that will be used to show cell
+ */
+- (id)initWithTableView:(UITableView *)tableView;
 
 @end

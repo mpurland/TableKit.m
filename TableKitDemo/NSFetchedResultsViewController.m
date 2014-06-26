@@ -45,7 +45,7 @@
         [self addItems];
     }
     
-    [self.tableModel loadItems];
+    [self.tableModel load];
 }
 
 

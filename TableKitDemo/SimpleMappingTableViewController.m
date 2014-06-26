@@ -34,11 +34,11 @@
     
     NSArray *items = [NSArray arrayWithObjects:
                       [Item itemWithTitle:@"Book1" subtitle:nil],
-                      [Item itemWithTitle:@"Book1" subtitle:nil],
-                      [Item itemWithTitle:@"Book1" subtitle:nil],
-                      [Item itemWithTitle:@"Book1" subtitle:nil],
-                      [Item itemWithTitle:@"Book1" subtitle:nil],
-                      [Item itemWithTitle:@"Book1" subtitle:nil],
+                      [Item itemWithTitle:@"Book2" subtitle:nil],
+                      [Item itemWithTitle:@"Book3" subtitle:nil],
+                      [Item itemWithTitle:@"Book4" subtitle:nil],
+                      [Item itemWithTitle:@"Book5" subtitle:nil],
+                      [Item itemWithTitle:@"Book6" subtitle:nil],
                       nil];
     
     [self.tableModel loadTableItems:items];
